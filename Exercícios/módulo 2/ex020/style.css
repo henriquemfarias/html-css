@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+div.bi{
+    display: inline-block;
+    background-color: cornflowerblue;
+    border: 1px solid black;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+}
+div.bi:hover{
+    background-color: blue;
+}
+
+div#oi:hover{
+    background-color: red;
+}
+
+div#oi > p {
+    display: none;
+}
+
+div#oi:hover > p {
+    display: block;
+    color: black;
+    background-color: yellow;
+    width: 400px;
+}
